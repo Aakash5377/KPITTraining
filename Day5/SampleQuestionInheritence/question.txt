@@ -15,7 +15,7 @@ Create a class DebitCard (inherits from Card) with attributes
         (_limit/50) * annual_charge  if ISSUER is MASTERCARD
         _limit/10 * annual_charge if ISSUER is RUPAY
 
-Create a class CreditCard (inherits fro Card) with attributes   
+Create a class CreditCard (inherits from Card) with attributes   
     - _transaction_limit which is a float value.
     - An overriden CalculateTaxOnCharge implementation which return (_limit/100) * annual_charge
 
